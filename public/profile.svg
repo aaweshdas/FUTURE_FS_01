@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="faceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5d0c5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4a574;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="280" height="280" rx="20" fill="url(#bgGradient)"/>
+  <!-- Head -->
+  <ellipse cx="140" cy="120" rx="55" ry="65" fill="url(#faceGradient)"/>
+  <!-- Hair -->
+  <ellipse cx="140" cy="75" rx="50" ry="35" fill="#1a1a2e"/>
+  <ellipse cx="100" cy="95" rx="15" ry="25" fill="#1a1a2e"/>
+  <ellipse cx="180" cy="95" rx="15" ry="25" fill="#1a1a2e"/>
+  <!-- Eyes -->
+  <ellipse cx="118" cy="115" rx="8" ry="5" fill="#1a1a2e"/>
+  <ellipse cx="162" cy="115" rx="8" ry="5" fill="#1a1a2e"/>
+  <!-- Smile -->
+  <path d="M 120 145 Q 140 160 160 145" stroke="#1a1a2e" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Body/Shoulders -->
+  <ellipse cx="140" cy="250" rx="80" ry="60" fill="#1a1a2e"/>
+  <!-- Collar -->
+  <path d="M 100 210 L 140 230 L 180 210" stroke="#7c3aed" stroke-width="3" fill="none"/>
+  <!-- Initials -->
+  <text x="140" y="200" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">AKD</text>
+</svg>

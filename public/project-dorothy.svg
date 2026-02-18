@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0.3"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bgGrad)"/>
+  <!-- Central orb -->
+  <circle cx="300" cy="180" r="80" fill="url(#orb)"/>
+  <circle cx="300" cy="180" r="60" fill="none" stroke="url(#accent)" stroke-width="2"/>
+  <circle cx="300" cy="180" r="100" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.5"/>
+  <!-- Sound waves -->
+  <path d="M 180 180 Q 160 150 180 120" stroke="#06b6d4" stroke-width="3" fill="none"/>
+  <path d="M 420 180 Q 440 150 420 120" stroke="#06b6d4" stroke-width="3" fill="none"/>
+  <path d="M 170 200 Q 140 180 170 160" stroke="#7c3aed" stroke-width="2" fill="none"/>
+  <path d="M 430 200 Q 460 180 430 160" stroke="#7c3aed" stroke-width="2" fill="none"/>
+  <!-- Title -->
+  <text x="300" y="320" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">Dorothy AI</text>
+  <text x="300" y="380" text-anchor="middle" fill="#666" font-family="Arial" font-size="16">Voice Assistant Interface</text>
+</svg>

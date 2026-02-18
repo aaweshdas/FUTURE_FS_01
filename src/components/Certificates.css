@@ -1,0 +1,121 @@
+.certificates {
+    background: var(--bg-secondary);
+}
+
+.certificates-content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.subsection-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3rem;
+    color: var(--text-primary);
+    margin-bottom: 20px;
+}
+
+.certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.certificate-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+}
+
+.certificate-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.certificate-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.certificate-title {
+    font-size: 1rem;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.certificate-issuer {
+    font-size: 0.9rem;
+    color: var(--accent-secondary);
+    margin-bottom: 4px;
+}
+
+.certificate-date {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.certificate-link {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    background: transparent;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.certificate-link:hover {
+    background: var(--accent-primary);
+    border-color: var(--accent-primary);
+    color: white;
+}
+
+/* Languages Section */
+.languages-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.language-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 24px;
+    min-width: 100px;
+}
+
+.language-name {
+    font-size: 1rem;
+    color: var(--text-primary);
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.language-level {
+    font-size: 0.8rem;
+    color: var(--accent-secondary);
+}
+
+@media (max-width: 1024px) {
+    .certificates-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .certificates-grid {
+        grid-template-columns: 1fr;
+    }
+}

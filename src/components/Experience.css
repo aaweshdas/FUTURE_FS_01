@@ -1,0 +1,153 @@
+.experience {
+    background: var(--bg-primary);
+}
+
+.experience-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.experience-section-title {
+    font-size: 1.3rem;
+    color: var(--text-primary);
+    margin-bottom: 20px;
+}
+
+/* Work Experience Cards */
+.experience-card {
+    display: flex;
+    gap: 20px;
+    padding: 28px;
+}
+
+.experience-icon {
+    width: 56px;
+    height: 56px;
+    background: var(--accent-gradient);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-shrink: 0;
+}
+
+.experience-details {
+    flex: 1;
+}
+
+.experience-title {
+    font-size: 1.15rem;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.experience-company {
+    font-size: 1rem;
+    color: var(--accent-secondary);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.experience-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.experience-meta span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.experience-type {
+    padding: 2px 10px;
+    background: var(--bg-glass);
+    border-radius: 50px;
+    font-size: 0.75rem !important;
+}
+
+.experience-responsibilities {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.experience-responsibilities li {
+    position: relative;
+    padding-left: 16px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin-bottom: 6px;
+}
+
+.experience-responsibilities li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--accent-primary);
+}
+
+/* Achievements Section */
+.achievements-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.achievements-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.achievements-list li:last-child {
+    border-bottom: none;
+}
+
+.achievement-icon {
+    color: var(--accent-secondary);
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.achievements-card {
+    padding: 24px;
+}
+
+@media (max-width: 900px) {
+    .experience-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .experience-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .experience-icon {
+        margin: 0 auto;
+    }
+
+    .experience-meta {
+        justify-content: center;
+    }
+
+    .experience-responsibilities li {
+        text-align: left;
+    }
+}

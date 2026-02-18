@@ -1,4 +1,3 @@
-# FUTURE_FS_01
 # 🚀 Personal Portfolio Website
 
 A modern, high-performance personal portfolio website built with **React**, **TypeScript**, and **Vite**. This project features a responsive design, smooth animations, and a glassmorphism aesthetic to showcase professional skills, projects, and experience.
@@ -112,5 +111,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-This project is licensed under the Aarav License - see the [LICENSE](LICENSE) file for details.
-
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -1,0 +1,28 @@
+.app {
+  min-height: 100vh;
+  position: relative;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+/* All sections should be semi-transparent to show the code background */
+.section {
+  position: relative;
+  background: rgba(3, 3, 8, 0.75) !important;
+  backdrop-filter: blur(2px);
+}
+
+/* Hero section fully transparent for max background visibility */
+.hero {
+  background: transparent !important;
+  backdrop-filter: none !important;
+}
+
+/* Slightly more opaque for text readability in content-heavy sections */
+.about,
+.contact {
+  background: rgba(8, 8, 16, 0.82) !important;
+}
